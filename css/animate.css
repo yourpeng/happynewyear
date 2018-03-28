@@ -1,0 +1,181 @@
+/*公共动画 begin*/
+@-webkit-keyframes opacityIn{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+@keyframes opacityIn{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@-webkit-keyframes moveFromRight{
+	0%{-webkit-transform: translateX(100%);}
+	100%{-webkit-transform: translateX(0);opacity: 1;}
+}
+@keyframes moveFromRight{
+	0%{transform: translateX(100%);}
+	100%{transform: translateX(0);opacity: 1;}
+}
+@-webkit-keyframes moveFromLeft{
+	0%{-webkit-transform: translateX(-100%);}
+	100%{-webkit-transform: translateX(0);opacity: 1;}
+}
+@keyframes moveFromLeft{
+	0%{transform: translateX(-100%);}
+	100%{transform: translateX(0);opacity: 1;}
+}
+
+@-webkit-keyframes moveFromBottom{
+	0%{-webkit-transform: translateY(100%);}
+	100%{-webkit-transform: translateY(0);opacity: 1;}
+}
+@keyframes moveFromBottom{
+	0%{transform: translateY(100%);}
+	100%{transform: translateY(0);opacity: 1;}
+}
+@-webkit-keyframes moveFromTop{
+	0%{-webkit-transform: translateY(-100%);}
+	100%{-webkit-transform: translateY(0);opacity: 1;}
+}
+@keyframes moveFromTop{
+	0%{transform: translateY(-100%);}
+	100%{transform: translateY(0);opacity: 1;}
+}
+
+@-webkit-keyframes coverIn{
+	0%{-webkit-transform: scale(3);opacity: 0;}
+	100%{-webkit-transform: scale(1);opacity: 1;}
+}
+@keyframes coverIn{
+	0%{transform: scale(3);opacity: 0;}
+	100%{transform: scale(1);opacity: 1;}
+}
+
+@-webkit-keyframes coverRotateIn{
+	0%{-webkit-transform: scale(2) rotateZ(-180deg);opacity: 0;}
+	100%{-webkit-transform: scale(1) rotateZ(0);opacity: 1;}
+}
+@keyframes coverRotateIn{
+	0%{transform: scale(2) rotateZ(-180deg);opacity: 0;}
+	100%{transform: scale(1) rotateZ(0);opacity: 1;}
+}
+
+@-webkit-keyframes rotate01{
+	0%{-webkit-transform: rotateZ(0deg);}
+	100%{-webkit-transform: rotateZ(-360deg);}
+}
+@keyframes rotate01{
+	0%{transform: rotateZ(0);}
+	100%{transform: rotateZ(-360deg);}
+}
+
+@-webkit-keyframes rotate02{
+	0%{-webkit-transform: rotateZ(0deg);}
+	100%{-webkit-transform: rotateZ(360deg);}
+}
+@keyframes rotate02{
+	0%{transform: rotateZ(0);}
+	100%{transform: rotateZ(360deg);}
+}
+
+@-webkit-keyframes rotateInZ_90{
+	0%{-webkit-transform: rotateZ(-90deg);}
+	100%{-webkit-transform: rotateZ(0deg);}
+}
+@keyframes rotateInZ_90{
+	0%{transform: rotateZ(-90deg);}
+	100%{transform: rotateZ(0);}
+}
+
+@-webkit-keyframes rotateInY_90{
+	0%{-webkit-transform: rotateY(-90deg);}
+	100%{-webkit-transform: rotateY(0deg);}
+}
+@keyframes rotateInY_90{
+	0%{transform: rotateY(-90deg);}
+	100%{transform: rotateY(0);}
+}
+
+@-webkit-keyframes rotateLighting{
+	0%{-webkit-transform: rotateZ(0deg);opacity: 1;}
+	50%{opacity: .5;}
+	100%{-webkit-transform: rotateZ(360deg);opacity: 1;}
+}
+@keyframes rotateLighting{
+	0%{transform: rotateZ(0);opacity: 1;}
+	50%{opacity: .5;}
+	100%{transform: rotateZ(360deg);opacity: 1;}
+}
+
+@-webkit-keyframes zoomIn{
+	0%{-webkit-transform: scale(0);opacity: 0}
+	100%{-webkit-transform: scale(1);opacity: 1}
+}
+@keyframes zoomIn{
+	0%{transform: scale(0);opacity: 0}
+	100%{transform: scale(1);opacity: 1}
+}
+@-webkit-keyframes zoomIn01{
+	0%{-webkit-transform: scale(0);}
+	70%{-webkit-transform: scale(1.1);}
+	100%{-webkit-transform: scale(1);}
+}
+@keyframes zoomIn01{
+	0%{transform: scale(0);}
+	70%{transform: scale(1.1);}
+	100%{transform: scale(1);}
+}
+
+@-webkit-keyframes light{
+	0%{-webkit-transform: scale(1);opacity: 1}
+	100%{-webkit-transform: scale(1.1);opacity: .7}
+}
+@keyframes light{
+	0%{transform: scale(1);opacity: 1}
+	100%{transform: scale(1.1);opacity: .7}
+}
+@-webkit-keyframes rotateFromRight{
+	0%{-webkit-transform: translateX(120%) rotateZ(360deg);}
+	100%{-webkit-transform: translateX(0) rotateZ(0);opacity: 1;}
+}
+@keyframes rotateFromRight{
+	0%{transform: translateX(120%) rotateZ(360deg);}
+	100%{transform: translateX(0) rotateZ(0);opacity: 1;}
+}
+@-webkit-keyframes swing{
+	0%{-webkit-transform:rotateZ(360deg);}
+	100%{-webkit-transform:rotateZ(0);opacity: 1;}
+}
+@keyframes swing{
+	0%{transform:rotateZ(360deg);}
+	100%{transform:rotateZ(0);opacity: 1;}
+}
+/*公共动画 end*/
+
+@-webkit-keyframes rotateFromLeft{
+	0%{-webkit-transform: translate(-200%,-240%) rotateZ(-180deg);}
+	50%{-webkit-transform: translate(0,-240%) rotateZ(0);}
+	100%{-webkit-transform: translate(0,0) rotateZ(0);}
+}
+@keyframes rotateFromLeft{
+	0%{transform: translate(-200%,-240%) rotateZ(-180deg);}
+	50%{transform: translate(0,-240%) rotateZ(0);}
+	100%{transform: translate(0,0) rotateZ(0);}
+}
+
+@keyframes cornerIn{
+	0%{transform: translate(-100%,-100%);opacity: 0;}
+	100%{transform: translate(0,0);opacity: 1;}
+}
+@-webkit-keyframes cornerIn{
+	0%{-webkit-transform: translate(-100%,-100%);opacity: 0;}
+	100%{-webkit-transform: translate(0,0);opacity: 1;}
+}
+@keyframes moveFromTop02{
+	0%{transform: translateY(-261%);}
+	100%{transform: translateY(0);}
+}
+@-webkit-keyframes moveFromTop02{
+	0%{-webkit-transform: translateY(-261%);}
+	100%{-webkit-transform: translateY(0);}
+}
